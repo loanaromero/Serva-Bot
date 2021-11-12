@@ -103,11 +103,11 @@ export default class UI extends Phaser.Scene
 		this.temporizador= this.time.addEvent({ delay: 1000, callback: this.cadaSegundo , callbackScope: this, loop: true });
 		
 		if(this.escenas==1){
-			this.R=200 //50
+			this.R=50 
 		} else if(this.escenas==2){
-			this.R=200 //30
+			this.R=30 
 		} else if(this.escenas==3){
-			this.R=200 //20
+			this.R=20 
 		}
 
 	}
